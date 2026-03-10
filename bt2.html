@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Bài tập HTML</title>
+</head>
+
+<body>
+
+<h1>Trang Web Bài Tập</h1>
+
+<!-- Album ảnh -->
+<h2>Album ảnh Trường Lạc Hồng</h2>
+
+<img src="https://engage-eu.s3-ap-southeast-1.amazonaws.com/uploads/images/CONG_TRUONG_111.width-1920.jpg"
+alt="Cổng trường Lạc Hồng"
+title="Cổng chính Trường Đại học Lạc Hồng"
+width="350"
+loading="lazy">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5-PQcMxr_3BthxCifv7M02zIxekH-H5ALQ&s"
+alt="Khuôn viên Lạc Hồng"
+title="Khuôn viên Trường Đại học Lạc Hồng"
+width="350"
+loading="lazy">
+
+<img src="https://i.ytimg.com/vi/WRQrdpI70cA/hq720.jpg"
+alt="Sinh viên Lạc Hồng"
+title="Sinh viên Trường Đại học Lạc Hồng"
+width="350"
+loading="lazy">
+
+<!-- Nhúng video -->
+<h2>Video bài giảng</h2>
+
+<iframe 
+width="560" 
+height="315"
+src="https://www.youtube.com/embed/Q32JND2Uw3k"
+title="Video bài giảng"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+<!-- Form đăng nhập -->
+<h2>Form Đăng nhập</h2>
+
+<form>
+<label>Tên đăng nhập:</label><br>
+<input type="text" name="username" required><br><br>
+
+<label>Mật khẩu:</label><br>
+<input type="password" name="password" required><br><br>
+
+<button type="submit">Đăng nhập</button>
+</form>
+
+<!-- Khảo sát sinh viên -->
+<h2>Khảo sát sinh viên</h2>
+
+<form>
+
+<p>Giới tính:</p>
+<input type="radio" name="gender" value="nam"> Nam<br>
+<input type="radio" name="gender" value="nu"> Nữ<br>
+
+<p>Sở thích:</p>
+<input type="checkbox" name="hobby" value="code"> Code<br>
+<input type="checkbox" name="hobby" value="game"> Game<br>
+<input type="checkbox" name="hobby" value="dabong"> Đá bóng<br><br>
+
+<button type="submit">Gửi khảo sát</button>
+
+</form>
+
+<!-- Validation Form -->
+<h2>Form thông tin liên hệ</h2>
+
+<form>
+
+<label>Email:</label><br>
+<input type="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+<label>Số điện thoại:</label><br>
+<input type="tel" name="phone" pattern="[0-9]+" placeholder="Chỉ nhập số" required><br><br>
+
+<button type="submit">Gửi</button>
+
+</form>
+
+</body>
+</html>
